@@ -43,7 +43,7 @@ body {
   font-family: 'Poppins', sans-serif; /* Modern font */
   margin: 0;
   padding: 0;
-  background-color: #f1e9e1; /* Shell white color */
+  background-color: #d9d7f3; /* Shell white color */
   color: #333;
 }
 
@@ -166,4 +166,50 @@ h1 {
   outline: 2px solid #000;
   border-radius: 4px;
   padding: 2px;
+}
+
+.page-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.main-heading {
+  color: #e91e63;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intro-paragraph {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.section-heading {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.travel-heading {
+  color: #3f51b5;
+}
+
+.food-heading {
+  color: #3bb535;
+}
+
+.treat-heading {
+  color: #fc9a06;
+}
+
+.image {
+  width: 70%; /* Increase the size of the images */
+  max-width: 350px; /* Set a maximum width for the images */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: inline-block; /* Ensure images are next to each other */
+  margin: 10px; /* Add margin for spacing between images */
+  text-align: center; /* Centering images inside the parent (if necessary) */
 }

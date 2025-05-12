@@ -4,6 +4,7 @@ import Home from './Home';
 import ThingsToRead from './ThingsToRead';
 import AccessibilityInfo from './AccessibilityInfo';
 import Navbar from './Navbar';
+import Favorites from './Justme';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/things-to-read" element={<ThingsToRead />} />
           <Route path="/accessibility-info" element={<AccessibilityInfo />} />
+          <Route path="/justme" element={<Favorites />} />
         </Routes>
       </div>
     </Router>

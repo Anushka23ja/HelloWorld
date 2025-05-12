@@ -16,7 +16,7 @@ function ThingsToRead() {
 
   return (
     <div>
-      <h1>Things to Read: </h1>
+      <h1>Good Reads: </h1>
       <p>Reading is a great way to pass time while actively engaging your brain.
       Every year, many great books are published across a variety of genres, including self-help, biography, fiction, non-fiction, and more.
       </p>
