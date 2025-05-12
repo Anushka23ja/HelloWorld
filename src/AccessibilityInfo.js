@@ -1,9 +1,11 @@
 import React from 'react';
+import './App.css';
 
 function AccessibilityInfo() {
   return (
     <div className="accessibility-info">
       <h1>Keyboard Accessibility </h1>
+      <img src="/Key.jpg" alt="Weightlifting" className="accessibility-image" />
       <h2>Navigation Instructions:</h2>
       <ul>
         <li><strong>Tab</strong>: Move forward through interactive elements (like links and buttons).</li>

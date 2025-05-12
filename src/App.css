@@ -59,7 +59,7 @@ body {
 header {
   text-align: center;
   margin-bottom: 2rem;
-  color: darkgreen;
+  color: #68a5af;
 }
 
 /* Intro section */
@@ -213,3 +213,62 @@ h1 {
   margin: 10px; /* Add margin for spacing between images */
   text-align: center; /* Centering images inside the parent (if necessary) */
 }
+.accessibility-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* You can adjust this value to make the image larger or smaller */
+  max-width: 600px; /* Optional: Set a maximum width for better control */
+}
+
+a {
+  color: hotpink; /* Sets the link color to hot pink */
+  text-decoration: none; /* Optional: Removes the underline from links */
+}
+
+a:hover {
+  color: purple; /* Changes the link color to purple on hover */
+}
+
+h1 {
+  color: rgb(170, 37, 117); /* Changes the text color of h1 to lavender */
+}
+
+button {
+  background-color: rgb(118, 113, 217); /* Default blue color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding for better button size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+button:hover {
+  background-color: rgb(128, 0, 105); /* Green color on hover */
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 2px solid rgb(188, 188, 251); /* Adds a border around the section */
+  border-radius: 10px; /* Optional: Rounds the corners of the box */
+  padding: 20px; /* Adds padding inside the box */
+  background-color: #e9f5f7; /* Adds a light background color to the box */
+  width: 80%; /* Adjust the width to control the size of the box */
+  max-width: 600px; /* Optional: Limits the maximum width of the box */
+  margin: 20px auto; /* Centers the box horizontally and adds some vertical margin */
+}
+
+.hobbies ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hobbies li {
+  margin: 5px 0;
+}
+
